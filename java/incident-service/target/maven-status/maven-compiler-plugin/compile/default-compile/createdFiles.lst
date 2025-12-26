@@ -1,0 +1,9 @@
+com\trafficnewsapp\incident\dao\IncidentDAO.class
+com\trafficnewsapp\incident\services\ValidationService$ValidationResult.class
+com\trafficnewsapp\incident\models\Incident.class
+com\trafficnewsapp\incident\services\ValidationService.class
+com\trafficnewsapp\incident\servlets\IncidentServlet.class
+com\trafficnewsapp\incident\util\DatabaseConnection.class
+com\trafficnewsapp\incident\services\IncidentService.class
+com\trafficnewsapp\incident\services\FilterService.class
+com\trafficnewsapp\incident\services\SearchService.class

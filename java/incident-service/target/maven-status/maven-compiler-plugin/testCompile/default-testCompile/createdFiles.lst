@@ -1,0 +1,4 @@
+com\trafficnewsapp\incident\dao\IncidentDAOTest.class
+com\trafficnewsapp\incident\services\ValidationServiceTest.class
+com\trafficnewsapp\incident\services\IncidentServiceTest.class
+com\trafficnewsapp\incident\services\FilterServiceTest.class

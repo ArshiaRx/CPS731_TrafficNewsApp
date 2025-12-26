@@ -1,0 +1,8 @@
+F:\Courses\Fall2025\CPS731 - Software Engineering I (Minor)\TrafficNewsApp\java\incident-service\src\main\java\com\trafficnewsapp\incident\models\Incident.java
+F:\Courses\Fall2025\CPS731 - Software Engineering I (Minor)\TrafficNewsApp\java\incident-service\src\main\java\com\trafficnewsapp\incident\util\DatabaseConnection.java
+F:\Courses\Fall2025\CPS731 - Software Engineering I (Minor)\TrafficNewsApp\java\incident-service\src\main\java\com\trafficnewsapp\incident\servlets\IncidentServlet.java
+F:\Courses\Fall2025\CPS731 - Software Engineering I (Minor)\TrafficNewsApp\java\incident-service\src\main\java\com\trafficnewsapp\incident\dao\IncidentDAO.java
+F:\Courses\Fall2025\CPS731 - Software Engineering I (Minor)\TrafficNewsApp\java\incident-service\src\main\java\com\trafficnewsapp\incident\services\SearchService.java
+F:\Courses\Fall2025\CPS731 - Software Engineering I (Minor)\TrafficNewsApp\java\incident-service\src\main\java\com\trafficnewsapp\incident\services\ValidationService.java
+F:\Courses\Fall2025\CPS731 - Software Engineering I (Minor)\TrafficNewsApp\java\incident-service\src\main\java\com\trafficnewsapp\incident\services\FilterService.java
+F:\Courses\Fall2025\CPS731 - Software Engineering I (Minor)\TrafficNewsApp\java\incident-service\src\main\java\com\trafficnewsapp\incident\services\IncidentService.java
