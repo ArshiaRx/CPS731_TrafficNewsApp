@@ -23,9 +23,7 @@ TrafficNewsApp/
 │   ├── build-all.ps1           # Build script for all services
 │   ├── deploy-and-run.ps1      # Deployment and startup script
 │   └── README.md               # Detailed Java implementation guide
-├── Phase-III/                   # Phase III LaTeX report
-├── Phase-III-IV/                # Combined Phase III & IV report
-└── Phase-IV/                    # Phase IV LaTeX report
+└── Phase-III-IV/                # Combined Phase III & IV report
 ```
 
 ## Architecture
