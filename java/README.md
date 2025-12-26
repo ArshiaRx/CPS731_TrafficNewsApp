@@ -220,72 +220,6 @@ Once Tomcat is running, access the application at:
 
 ---
 
-## 🔧 Troubleshooting
-
-### Issue: JAVA_HOME not defined correctly
-
-**Error:** `The JAVA_HOME environment variable is not defined correctly`
-
-**Solution:**
-1. The build scripts automatically detect JAVA_HOME. If it fails:
-   ```powershell
-   $env:JAVA_HOME = "C:\Users\Arshi\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.6.7-hotspot"
-   ```
-2. Verify Java is accessible:
-   ```powershell
-   java -version
-   ```
-
-### Issue: Tomcat won't start
-
-**Solution:**
-1. Check if port 8080 is in use:
-   ```powershell
-   netstat -ano | findstr :8080
-   ```
-2. Check Tomcat logs:
-   ```powershell
-   Get-Content "C:\Program Files\Apache Software Foundation\Tomcat 9.0\logs\catalina.out" -Tail 50
-   ```
-
-### Issue: Database connection error
-
-**Solution:**
-1. Verify MySQL is running:
-   ```powershell
-   Get-Service | Where-Object {$_.Name -like "*mysql*"}
-   ```
-2. Check database credentials in `DatabaseConnection.java` files
-3. Test MySQL connection:
-   ```powershell
-   mysql -u root -p -e "USE trafficnewsapp; SELECT COUNT(*) FROM incidents;"
-   ```
-
-### Issue: 404 errors when accessing application
-
-**Solution:**
-1. Wait 10-15 seconds after starting Tomcat for WAR files to deploy
-2. Check if WAR files are in Tomcat's webapps directory:
-   ```powershell
-   Get-ChildItem "C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\*.war"
-   ```
-3. Check Tomcat logs for deployment errors
-
----
-
-## 🛑 Stopping the Application
-
-To stop Tomcat:
-
-```powershell
-# Option A: Using shutdown script
-& "C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin\shutdown.bat"
-
-# Option B: Stop Windows Service
-Stop-Service Tomcat9
-```
-
----
 
 ## 📝 API Documentation
 
@@ -320,7 +254,6 @@ Content-Type: application/json
 
 ## 🧪 Testing
 
-> **📖 For complete testing instructions, see:** [`TESTING_GUIDE.md`](TESTING_GUIDE.md)
 
 ### Prerequisites: Set JAVA_HOME
 
@@ -380,12 +313,6 @@ All test files are located in `src/test/java/` of each service:
 | `FilterServiceTest` | incident-service | `mvn test -Dtest=FilterServiceTest` |
 | `SavedRoutesServiceTest` | user-service | `mvn test -Dtest=SavedRoutesServiceTest` |
 
-### Additional Testing Resources
-
-- **Complete Testing Guide**: [`TESTING_GUIDE.md`](TESTING_GUIDE.md) - Step-by-step instructions, directory structure, troubleshooting
-- **Advanced Testing Methods**: [`RUN_INDIVIDUAL_TESTS.md`](RUN_INDIVIDUAL_TESTS.md) - Alternative testing approaches
-
----
 
 ---
 
@@ -414,15 +341,6 @@ This project is developed for educational purposes as part of CPS731 - Software 
 
 ---
 
-## 🆘 Support
-
-For issues or questions:
-1. Check the Troubleshooting section above
-2. Review Tomcat logs: `C:\Program Files\Apache Software Foundation\Tomcat 9.0\logs\`
-3. Check application logs in Tomcat's logs directory
-4. Verify all prerequisites are installed and configured correctly
-
----
 
 **Last Updated**: 2025
 **Version**: 1.0.0
