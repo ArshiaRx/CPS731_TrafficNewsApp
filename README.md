@@ -12,8 +12,6 @@ A web-based application for viewing and reporting real-time traffic incidents, b
 TrafficNewsApp/
 ├── database/                    # Database schema and setup
 │   └── schema.sql              # MySQL database schema
-├── docs/                        # Documentation
-│   └── TestCases.md            # Java JUnit test cases documentation
 ├── java/                        # Java implementation (main application)
 │   ├── incident-service/       # Microservice 1: Incident Management
 │   ├── map-service/            # Microservice 2: Map Services
