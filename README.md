@@ -6,7 +6,6 @@ A web-based application for viewing and reporting real-time traffic incidents, b
 
 ![Project Demo 2](./samplePresentation/Demo2.jpg)
 
-samplePresentation/Demo1.jpg
 ## Project Structure
 
 ```
