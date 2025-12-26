@@ -1,0 +1,7 @@
+com\trafficnewsapp\scheduler\services\OfflineSubmissionQueue.class
+com\trafficnewsapp\scheduler\servlets\SchedulerServlet.class
+com\trafficnewsapp\scheduler\dao\SubmissionDAO.class
+com\trafficnewsapp\scheduler\services\RefreshScheduler$1.class
+com\trafficnewsapp\scheduler\util\DatabaseConnection.class
+com\trafficnewsapp\scheduler\models\Submission.class
+com\trafficnewsapp\scheduler\services\RefreshScheduler.class
